@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de tareas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="contenedor">
+    <h1 class="titulo">Lista de tareas</h1>
+
+    <form class="formulario" id="formulario">
+      <input type="text" id="entrada" placeholder="Añadir una tarea" autocomplete="off" aria-label="Nueva tarea">
+      <button type="submit" class="btn-anadir">Añadir</button>
+    </form>
+
+    <ul class="lista" id="lista"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
